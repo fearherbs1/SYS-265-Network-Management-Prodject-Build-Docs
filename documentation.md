@@ -2,7 +2,7 @@
 
 # Summary
 
-For this project the team used Grafana, Prometheus, Node Exporter, and Windows Exporter. Grafana was used to visualize the log data and send alerts to Discord. Prometheus ingested all the logs collected from the endpoints and passed the data to Grafana. Node Exporter and WMI Exporter were used to collect system information on Linux and Windows systems respectively. 
+For this project the team used [Grafana](https://grafana.com/), [Prometheus](https://prometheus.io/), [Node Exporter](https://github.com/prometheus/node_exporter), and [Windows Exporter](https://github.com/prometheus-community/windows_exporter). Each was downloaded from their respective sites. Grafana was used to visualize the log data and send alerts to Discord. Prometheus ingested all the logs collected from the endpoints and passed the data to Grafana. Node Exporter and WMI Exporter were used to collect system information on Linux and Windows systems respectively. 
 
 # Prometheus Setup
 
